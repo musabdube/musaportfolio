@@ -6,20 +6,19 @@ export const info = {
   firstName: 'Musawenkosi',
   lastName: 'Dube',
   initials: 'MD',
-  position: 'a Full Stack Developer || Electronics and nanotechnology engineer',
+  position: 'Full Stack Developer || Electronics and Nanotechnology Engineer',
   selfPortrait: self,
   gradient: `-webkit-linear-gradient(135deg, ${colors})`,
   baseColor: colors[0],
   miniBio: [
     {
       emoji: '☕',
-      text: 'fueled by drive and coffee',
+      text: 'Fueled by drive and coffee',
     },
     {
       emoji: '🌎',
-      text: 'based in the ZA ',
+      text: 'Based in ZA 🇿🇦',
     },
-
     {
       emoji: '📧',
       text: 'musabdube@gmail.com',
@@ -43,27 +42,27 @@ export const info = {
       icon: 'fa fa-twitter',
     },
     {
-      link: 'www.linkedin.com/in/musawenkosi-dube-b06a30256',
+      link: 'https://www.linkedin.com/in/musawenkosi-dube-b06a30256',
       icon: 'fa fa-linkedin',
     },
   ],
-  bio: "Hello! I'm Musa, I'm an electronics and nanotechnology engineer. I studied Electronics at St Petersburg Electrotechnical University. I'm also a web developer. I enjoy art and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+  bio: "Hello! I'm Musa, an Electronics and Nanotechnology Engineer. I studied Electronics at St. Petersburg Electrotechnical University. I'm also a Web Developer. I enjoy art and believe artificial intelligence will inevitably rule us all one day. You should hire me!",
   skills: {
     proficientWith: [
-      'javascript',
-      'react',
-      'git',
-      'github',
-      'bootstrap',
-      'Databases(Mongodb, PostgreSQL)',
+      'JavaScript',
+      'React',
+      'Git',
+      'GitHub',
+      'Bootstrap',
+      'Databases (MongoDB, PostgreSQL)',
       'Java',
-      'matlab',
+      'MATLAB',
       'Django',
-      'COSMOL Multiphysics',
-      'python',
-      'node js'
+      'COMSOL Multiphysics',
+      'Python',
+      'Node.js',
     ],
-    exposedTo: ['Softwares(LTSpice,AutoCAD)', 'Arduino', 'VHDL', 'Linux'],
+    exposedTo: ['Software (LTSpice, AutoCAD)', 'Arduino', 'VHDL', 'Linux'],
   },
   hobbies: [
     {
@@ -77,13 +76,14 @@ export const info = {
     {
       label: 'nature',
       emoji: '🌿',
-    }
-],
+    },
+  ],
   portfolio: [
     {
-      title: 'Available on request',
+      title: 'Available on Request',
       // live: 'https://github.com/musabdube',
       // source: 'https://github.com/musabdube',
     },
   ],
+  cv: '/Musawenkosi_Dube_CV.pdf', // Link to CV file
 };
