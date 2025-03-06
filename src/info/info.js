@@ -6,7 +6,7 @@ export const info = {
   firstName: 'Musawenkosi',
   lastName: 'Dube',
   initials: 'MD',
-  position: 'Full Stack Developer || Electronics and Nanotechnology Engineer',
+  position: 'a Full Stack Developer || Electronics and Nanotechnology Engineer',
   selfPortrait: self,
   gradient: `-webkit-linear-gradient(135deg, ${colors})`,
   baseColor: colors[0],
