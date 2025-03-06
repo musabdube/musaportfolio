@@ -42,7 +42,6 @@ export default function BaseLayout() {
             width={'100%'}
           >
             <p>
-              template created with &hearts; by{' '}
               <a href={'https://github.com/musabdube'}>Musawenkosi Dube</a>
             </p>
             <p>&copy; 2022</p>
