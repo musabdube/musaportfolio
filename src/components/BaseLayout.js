@@ -44,7 +44,7 @@ export default function BaseLayout() {
             <p>
               <a href={'https://github.com/musabdube'}>Musawenkosi Dube</a>
             </p>
-            <p>&copy; 2022</p>
+            <p>&copy; 2025</p>
           </Box>
         </Grid>
       </Grid>
