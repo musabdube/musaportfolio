@@ -80,8 +80,8 @@ export const info = {
   ],
   portfolio: [
     {
-      title: 'Available on Request',
-      // live: 'https://github.com/musabdube',
+      title: 'Glow Squad',
+      live: 'https://www.glowsquad.co.za/',
       // source: 'https://github.com/musabdube',
     },
   ],

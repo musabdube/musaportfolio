@@ -19,7 +19,7 @@ function PortfolioBlock(props) {
       >
         {live && (
           <Box p={1} border="2px solid black" borderRadius="25px">
-            <IconLink link={live} title="Live Demo" icon="fa fa-safari" />
+            <IconLink link={live} title="Live" icon="fa fa-safari" />
           </Box>
         )}
         {source && (
