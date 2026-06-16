@@ -81,8 +81,16 @@ export const info = {
   portfolio: [
     {
       title: 'Glow Squad',
-      live: 'https://www.glowsquad.co.za/',
+      live: 'https://www.glow-squad.co.za/',
       // source: 'https://github.com/musabdube',
+    },
+    {
+      title: 'Suavemobile',
+      live: 'https://suavemobile.com',
+    },
+    {
+      title: 'Rentalot',
+      live: 'https://rentalot.co.zw',
     },
   ],
   cv: '/Musawenkosi_Dube_CV.pdf', // Link to CV file
