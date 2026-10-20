@@ -13,7 +13,7 @@ export default function Portfolio() {
           </Grid>
         ))}
       </Grid>
-      {/* CV Download Button at the Bottom */}
+      {/* CV View Button at the Bottom */}
       <Box textAlign="center" py={4}>
         <Button
           variant="contained"
@@ -22,7 +22,7 @@ export default function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Download My CV
+          View My CV
         </Button>
       </Box>
     </Box>

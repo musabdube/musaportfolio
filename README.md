@@ -39,6 +39,56 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## GitHub setup and deployment steps
+
+### 1) Create a GitHub repository
+
+1. Go to GitHub and create a new repository.
+2. Do not initialize it with a README if you already have one.
+3. Copy the repository URL, for example:
+   `https://github.com/your-username/your-repo-name.git`
+
+### 2) Push this project to GitHub
+
+Run these commands in the project folder:
+
+```bash
+git init
+git branch -M main
+git add .
+git commit -m "Initial portfolio commit"
+git remote add origin https://github.com/your-username/your-repo-name.git
+git push -u origin main
+```
+
+### 3) Deploy to GitHub Pages
+
+This project is configured to publish the build folder to GitHub Pages.
+
+1. Make sure the repository is set to public, or use a GitHub plan that supports private GitHub Pages if needed.
+2. Run:
+
+```bash
+npm install
+npm run deploy
+```
+
+3. In GitHub, open your repository and go to:
+   `Settings` → `Pages`
+4. Set the source to `Deploy from a branch` and choose the `gh-pages` branch.
+5. GitHub will generate a live URL like:
+   `https://your-username.github.io/your-repo-name/`
+
+### 4) Update the site later
+
+After making changes, run:
+
+```bash
+npm run deploy
+```
+
+This rebuilds the app and pushes the updated version to GitHub Pages.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

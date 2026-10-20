@@ -1,10 +1,10 @@
 import React from 'react';
 import IconLink from './IconLink';
-import { Box, Button } from '@mui/material';
-import { info } from '../../info/info';
+import { Box } from '@mui/material';
 
 function PortfolioBlock(props) {
   const { live, source, title } = props;
+
   return (
     <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <h1 style={{ fontSize: '2rem' }}>{title}</h1>
@@ -28,17 +28,6 @@ function PortfolioBlock(props) {
           </Box>
         )}
       </Box>
-      {/* CV Download Button */}
-      <Button
-        variant="contained"
-        color="primary"
-        href={info.cv}
-        target="_blank"
-        rel="noopener noreferrer"
-        sx={{ mt: 2 }}
-      >
-        Download My CV
-      </Button>
     </Box>
   );
 }
